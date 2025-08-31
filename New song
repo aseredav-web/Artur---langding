@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Створи свій трек за 3 дні — Артур Середа</title>
+
+  <!-- Open Graph для соцмереж -->
+  <meta property="og:title" content="Створи свій трек за 3 дні — Артур Середа">
+  <meta property="og:description" content="Приділяй 1–2 години в день та отримай готовий трек. Пакети від 700 грн.">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Створи+свій+трек+за+3+дні">
+  <meta property="og:url" content="https://твоє-доменне-ім'я.com/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f9fafb; color:#111; }
+    a { color: #4f46e5; text-decoration:none; }
+    header { background: linear-gradient(135deg, #4f46e5, #9333ea); color:white; text-align:center; padding:60px 20px; }
+    header h1 { font-size:2.5rem; margin-bottom:10px; }
+    header p { font-size:1.2rem; margin:0 auto; max-width:600px; }
+    section { padding:60px 20px; max-width:1000px; margin:auto; }
+    h2 { font-size:2rem; margin-bottom:20px; text-align:center; }
+    .card-container { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; }
+    .card { background:#f3f4f6; border-radius:12px; padding:20px; text-align:center; transition:transform .2s; }
+    .card:hover { transform:translateY(-5px); }
+    .card h3 { font-size:1.5rem; margin-bottom:10px; }
+    .price { font-size:1.2rem; font-weight:bold; margin:10px 0; }
+    .btn { display:inline-block; margin-top:10px; padding:10px 20px; border-radius:8px; background:#4f46e5; color:white; font-weight:bold; transition:background .2s; }
+    .btn:hover { background:#4338ca; }
+    iframe { width:100%; height:400px; border:none; border-radius:12px; }
+    form { display:flex; flex-direction:column; max-width:500px; margin:auto; gap:10px; }
+    input, select, textarea { padding:10px; border-radius:6px; border:1px solid #ccc; font-size:1rem; width:100%; }
+    button[type="submit"] { cursor:pointer; }
+    footer { text-align:center; padding:30px; background:#111; color:white; }
+    footer a { color:#a5b4fc; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Створи свій трек за 3 дні</h1>
+  <p>з Артуром Середою — Art / Artur Wednesday</p>
+</header>
+
+<section class="about">
+  <h2>Про мене</h2>
+  <p>Мене звати <b>Артур Середа</b>. Я займаюся музикою вже понад 20 років. Втілити свою творчість зміг завдяки штучному інтелекту.</p>
+  <p>Проєкти: 
+    <a href="https://youtube.com/@artur_sereda" target="_blank">YouTube</a>, 
+    <a href="https://www.tiktok.com/@art75782" target="_blank">TikTok</a>, 
+    <a href="https://music.apple.com/us/artist/artur-wednesday/1830682240" target="_blank">Apple Music</a>, 
+    <a href="https://distrokid.com/hyperfollow/arturwednesday/uranus-to-night/" target="_blank">Spotify/інші</a>
+  </p>
+</section>
+
+<section class="program">
+  <h2>Як проходить навчання</h2>
+  <ul>
+    <li>Написання або обробка тексту</li>
+    <li>Створення пісні у застосунку</li>
+    <li>Допрацювання та підготовка пісні</li>
+  </ul>
+</section>
+
+<section class="pricing">
+  <h2>Пакети навчання</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>Базовий</h3>
+      <p class="price">700 грн</p>
+      <p>Від знайомства до готової пісні</p>
+      <a class="btn" href="#signup">Записатися</a>
+    </div>
+    <div class="card">
+      <h3>YouTube & TikTok</h3>
+      <p class="price">1000 грн</p>
+      <p>Підготовка пісні для соцмереж</p>
+      <a class="btn" href="#signup">Записатися</a>
+    </div>
+    <div class="card">
+      <h3>Міжнародні платформи</h3>
+      <p class="price">1500 грн</p>
+      <p>Вихід на Spotify, iTunes, Apple Music, Deezer</p>
+      <a class="btn" href="#signup">Записатися</a>
+    </div>
+    <div class="card">
+      <h3>Індивідуальне</h3>
+      <p class="price">2500 грн</p>
+      <p>Персональне навчання та супровід</p>
+      <a class="btn" href="#signup">Записатися</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Відео</h2>
+  <iframe src="https://www.youtube.com/embed/UzA-eBU-QIk" allowfullscreen></iframe>
+</section>
+
+<section id="signup" class="about">
+  <h2>Записатися на курс</h2>
+  <form action="https://formspree.io/f/YOUR_ID" method="POST">
+    <input type="text" name="name" placeholder="Ваше ім'я" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <select name="package" required>
+      <option value="">Оберіть пакет</option>
+      <option>Базовий — 700 грн</option>
+      <option>YouTube & TikTok — 1000 грн</option>
+      <option>Міжнародні платформи — 1500 грн</option>
+      <option>Індивідуальне — 2500 грн</option>
+    </select>
+    <textarea name="note" placeholder="Коротко про трек" rows="3"></textarea>
+    <button type="submit" class="btn">Відправити заявку</button>
+  </form>
+  <p style="text-align:center; margin-top:10px;">Після заявки отримаєте посилання для оплати через PayPal.</p>
+</section>
+
+<section class="payments about">
+  <h2>Оплата</h2>
+  <a href="https://www.paypal.com/paypalme/a.sereda.v" target="_blank" class="btn">Оплатити через PayPal</a>
+</section>
+
+<footer>
+  <p>© 2025 Артур Середа — Art / Artur Wednesday</p>
+  <p><a href="mailto:a.sereda.v@gmail.com">Написати лист</a></p>
+</footer>
+
+</body>
+</html>
